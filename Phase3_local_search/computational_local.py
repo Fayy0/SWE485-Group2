@@ -1,5 +1,5 @@
 import time
-from local_search_implementation import local_search
+from implementation_local import local_search
 from TestCases_local import scenarios
 
 for name, graph in scenarios.items():

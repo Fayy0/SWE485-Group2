@@ -1,6 +1,6 @@
 import time
-from implementation import A_star_map_coloring
-from testCases import scenarios
+from implementation_incremental import A_star_map_coloring
+from testCases_incremental import scenarios
 
 for name, graph in scenarios.items():
     start_time = time.time()  
